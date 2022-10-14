@@ -63,12 +63,3 @@ def dzientygodnia(x):
         7:'Niedziela',
     }.get(x,'Wprowadź numer od 1 do 7')
 #print(dzientygodnia(1))
-
-#ZAD10
-def palindrom(char):
-    for i in range(int(len(char)/2)):
-        if(char[i]!=char[(len(char)-1)-i]):
-            return 0
-    return 1
-#print(palindrom('131'))
-#print(palindrom('9683'))
